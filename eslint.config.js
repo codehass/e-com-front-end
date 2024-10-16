@@ -12,7 +12,7 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    extends: ["airbnb", "airbnb-typescript", "airbnb/hooks", "plugin:prettier/recommended"],
+    // extends: ["airbnb", "airbnb-typescript", "airbnb/hooks", "plugin:prettier/recommended"],
     parser: "@typescript-eslint/parser",
     parserOptions: {
       project: "./tsconfig.json"
